@@ -12,7 +12,7 @@ The Random Forest model's parameter for n_estimators was tuned using GridSearch 
 Predictions were conducted on the tuned grid model with the following results:
  
  
- precision    recall  f1-score   support
+                  precision    recall  f1-score   support
 
      CANDIDATE       0.85      0.79      0.81       411
      CONFIRMED       0.84      0.86      0.85       484
