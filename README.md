@@ -10,6 +10,8 @@ The best model was consistently the Random Forest model.
 I utilized the Random Forest feature importance function and re-set X to those features with an importance > 0.05 and re-ran the Random Forest model. However, the result tested at less than 85%, so I re-set X to the orginal 20 features.
 The Random Forest model's parameter for n_estimators was tuned using GridSearch where the larger n_estimator (1000) was chosen as the best parameter, versus 100.
 Predictions were conducted on the tuned grid model with the following results:
+ 
+ 
  precision    recall  f1-score   support
 
      CANDIDATE       0.85      0.79      0.81       411
