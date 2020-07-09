@@ -8,7 +8,7 @@ The Random Forest tested at approximately 90%
 The Logistic Regression tested at approximately 80%
 The best model was consistently the Random Forest model.
 I utilized the Random Forest feature importance function and re-set X to those features with an importance > 0.05 and re-ran the Random Forest model. However, the result tested at less than 85%, so I re-set X to the orginal 20 features.
-The Random Forest model's parameter for n_estimators was tuned using GridSearch where the larger n_estimator (1000) was chosen as the best parameter, versus 100.
+The Random Forest model's parameter for n_estimators was tuned using GridSearch where the smaller n_estimator (100) was chosen as the best parameter, versus 1000.
 Predictions were conducted on the tuned grid model with the following results:
  
  
