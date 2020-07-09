@@ -16,8 +16,10 @@ Predictions were conducted on the tuned grid model with the following results:
 
      CANDIDATE       0.85      0.79      0.81       411
      CONFIRMED       0.84      0.86      0.85       484
+
 FALSE POSITIVE       0.98      1.00      0.99       853
 
       accuracy                           0.91      1748
      macro avg       0.89      0.88      0.88      1748
-  weighted avg       0.91      0.91      0.91      1748
+ 
+ weighted avg       0.91      0.91      0.91      1748
